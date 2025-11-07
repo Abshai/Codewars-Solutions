@@ -1,0 +1,6 @@
+function spEng(sentence){
+//write your code here
+  let sentenceLowerCase = sentence.toLowerCase()
+  let containsEnglish = sentenceLowerCase.includes("english")
+  return containsEnglish
+}
