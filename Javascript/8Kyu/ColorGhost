@@ -1,7 +1,8 @@
-function howManyLightsabersDoYouOwn(name) {
-  if (name === "Zach") { 
-  return 18
-  } else {
-    return 0
+class Ghost {
+  // your code goes here
+  constructor() {
+    const colors = ["white", "yellow", "purple", "red"];
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    this.color = colors[randomIndex];
   }
 }
