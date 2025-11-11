@@ -1,0 +1,7 @@
+function _if (val, func1, func2) {
+  if (val) {
+      return func1();
+  } else {
+      return func2();
+    }
+}
